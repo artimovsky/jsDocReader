@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>jsDocReader</title>
+    <script src="/docreader.js"></script>
+</head>
+<body>
+    <div><a href="/doc1.pdf" class="open-doc" data-drgroup="pdf">PDF 1</a></div>
+    <div><a href="/doc2.pdf" class="open-doc" data-drgroup="pdf">PDF 2</a></div>
+    <div><a href="/doc3.pdf" class="open-doc" data-drgroup="pdf">PDF 3</a></div>
+    <div><a href="/image1.jpg" class="open-doc">Image 1</a></div>
+    <div><a href="/image2.jpg" class="open-doc">Image 2</a></div>
+    <div><a href="/image3.jpg" class="open-doc">Image 3</a></div>
+</body>
+<script>
+    new jsDocReader('.open-doc');
+</script>
+</html>
